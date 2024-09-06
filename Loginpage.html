@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System - Login</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 1;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ebf0f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Login container styling */
+        .login-container {
+            background-color: #ffffff;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        /* Headline */
+        .login-container h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333333;
+        }
+
+        /* Form labels */
+        .login-container label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #666666;
+            text-align: left;
+        }
+
+        /* Input fields */
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        /* Submit button */
+        .login-container button[type="submit"] {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            width: 100%;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* Button hover effect */
+        .login-container button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        /* Links */
+        .login-container a {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .login-container a:hover {
+            text-decoration: underline;
+        }
+
+        /* Additional links styling */
+        .login-container .forgot-password {
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .login-container .register-now {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form action="login.php" method="post">
+            <label for="student_id">Student ID</label>
+            <input type="text" id="student_id" name="student_id" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit" >Login</button>
+        </form>
+
+        <a href="Studentlogincredentail.html" class="forgot-password">Forgot Password?</a>
+
+        <div class="register-now">
+            <span>Not registered? </span><a href="Studentregistretion.html">Register now</a>
+        </div>
+    </div>
+</body>
+</html>
