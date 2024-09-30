@@ -1,0 +1,24 @@
+.box{
+    background-color: beige;
+    height: 400px;
+    width: 400px;
+
+}
+.box1{
+    background-color: blanchedalmond;
+    height: 400px;
+    width: 400px;
+}
+.box2{
+    background-image: url(https://i.pinimg.com/736x/3c/4a/e6/3c4ae67746d8989b8e3e9ad9fd3af0e9.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    
+}
+.box3{
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    background-image: url(https://imgd.aeplcdn.com/1920x1080/n/cw/ec/40087/thar-exterior-right-front-three-quarter-32.jpeg?q=80&q=80);
+}
